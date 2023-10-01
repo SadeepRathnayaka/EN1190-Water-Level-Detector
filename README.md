@@ -53,23 +53,6 @@ Link for mobile app download :- https://bit.ly/3T5Wd2W
 ![image](https://github.com/malanban/Water-Level-Detector/assets/131769448/f33f0dc7-e3fb-4ced-ba70-5ebca97d06e1)
 
 
-## Discussion
-Throughout the execution of this project, we encountered several noteworthy challenges and obstacles, which we successfully addressed. Here are some of the key challenges we faced:
-
-* Complex Device Design: One of the primary challenges we encountered was the complexity of designing our device. This complexity arose from the need to securely mount the ultrasonic sensor within the device, along with accommodating a rechargeable battery and charging port. We had to meticulously calculate the size of holes and ports, as well as determine the overall dimensions of the enclosure.
-* Signal Reflection: Initially, we faced uncertainties regarding the reflection of signals on the surface of the water. We needed to ensure that the ultrasonic sensor could effectively send and receive signals in this environment. After careful consideration, we selected the ultrasonic sensor as the most suitable sensor for our device.
-* Data Transfer: Another challenge we encountered was transferring data from the tank to a mobile device. We initially had concerns about the limited range of Bluetooth modules, which were reported to have a range of only 10 meters. However, we eventually identified a Bluetooth module that could transmit data within a 100-meter radius, overcoming this limitation.
-* Enclosure Design: Designing the enclosure for our device presented difficulties in fixing the dimensions accurately to accommodate all the necessary components while ensuring the device’s durability and functionality.
-* PCB Design: We also faced challenges during the design of the printed circuit board (PCB) due to our limited experience in PCB design. We had to acquire new knowledge and adhere to PCB design rules to create a functional and reliable PCB for our device.
-Despite these challenges, our team’s commitment to problem-solving and continuous learning allowed us to overcome each obstacle effectively. As a result, we have developed a robust and innovative solution that addresses the issues related to water tank monitoring and management, offering users a reliable and efficient way to monitor their water levels and prevent problems such as overflows and water shortages.
-
-## Acknowledgement
-We would like to express our sincere gratitude to everyone who contributed, no matter how small their role, to the successful completion of this project. Your support and assistance have been invaluable, and we appreciate your involvement in our endeavor.
-
-We would also like to extend a special thank you to Mr. Ajith Pasqual, our module lecturer, for his guidance and mentorship throughout this project. Mr. Pasqual’s motivation and encouragement played a crucial role in inspiring us to delve into additional subjects necessary for the project’s success. Moreover, his assistance in clarifying our doubts and addressing project-related ambiguities proved to be invaluable in our journey.
-
-Once again, thank you to all who have been a part of this project, contributing to its achievements and milestones. Your support has been truly appreciated, and it has made a significant difference in our project’s outcomes.
-
 ## References
 https://www.electronicwings.com/avr-atmega/interfacing-lcd-16×2-in-4-bit-mode-with-atmega16-32-
 
