@@ -6,39 +6,11 @@ As part of the course module EN1190 Engineering Design Project, we were given to
 
 * Imagine if they could monitor the water tank’s status from inside the house. This would allow them to easily control the water pump without the need to go outside. Additionally, in cases where they are occupied with work or other activities, receiving notifications about the water level would enable them to turn off the pump at the right time and prevent overflow.
 
-* In areas prone to power outages, it can be a significant problem if the water tank is empty. Without power and water, it can be extremely inconvenient to stay in the house. Consider the convenience of being able to check the water level in the tank and knowing the schedule for power cuts. With this information, they could make informed decisions about whether the remaining water will suffice during the power outage or if it’s necessary to refill the tank just before the power is cut.
-
-* Furthermore, in scenarios where a person lives alone and the water tank runs empty while they are in the bathroom or toilet, it can be uncomfortable for them to come out and switch on the water pump manually. What if they could receive an alert when the water level drops below a certain threshold (e.g., 15% of the full tank or a customizable level)? They could then remotely activate the water pump, eliminating the inconvenience.
-
-* At night, when someone is watching TV, working, or playing mobile games and they forget to turn off the water pump, the pump may continue running unnecessarily. This leads to water and power wastage, potential damage to the pump, and the risk of the well’s water level dropping below the pump’s inlet pipe. Receiving an alert to switch off the pump would help them avoid these issues.
-
-In summary, having a system that provides real-time information about the water tank’s status, power cut schedules, and the ability to remotely control the water pump can greatly improve convenience, prevent wastage, and ensure a continuous water supply in various scenarios.
-
-## Problem Validation
-We have conducted a comprehensive survey using Google Forms to gather quantitative feedback and gain insights into the expectations of potential end-users. The goal was to validate the identified problem statement and assess the level of demand for our proposed solution.
-Survey Link: Survey Results
-
-According to the survey findings, an impressive 76.2% of respondents reported that they have experienced the need to manually switch off their water pump immediately after their tank is filled to capacity. Additionally, a significant number of respondents admitted to frequently forgetting to turn off the pump, leading to overflow issues.
-Furthermore, it was found that a rare but notable occurrence was the depletion of the water tank during power outages. Among those who faced this issue, a remarkable 91.7% expressed a desire for several key features:
-* Real-time Tank Water Level Monitoring: They wish to have a system that provides continuous updates on the water tank’s water level.
-* Synchronization with Power Cut Schedules: Respondents expressed interest in aligning their water tank refilling activities with scheduled power cut periods to ensure uninterrupted water supply during these times.
-* Low Water Level Alerts: An overwhelming majority indicated their preference for receiving alerts just before the water level reaches a critically low point or when the tank is on the verge of overflowing.
-* Moreover, approximately two-thirds of the respondents indicated a preference for a battery-operated system to power this solution.
-
 
 ## Solution
 We propose a solution to effectively address these concerns. Our plan involves designing a system capable of monitoring the water level in the tank and providing continuous notifications to the user 24/7. This device will be securely fixed on top of the water tank and will incorporate an ultrasound wave generator and receiver.
-Here’s how our system works:
-* Ultrasound Measurement: The system initiates by sending an ultrasound wave through the device, which then travels down into the water inside the tank.
-* Reflection and Sensing: The ultrasound waves will bounce off the water’s surface within the tank and return to the device, where they are detected by specialized sensors.
-* Time Difference Calculation: The device utilizes an integrated circuit (IC) to precisely measure the time it takes for the ultrasound waves to travel from the device to the water’s surface and back.
-* Calculating Empty Space: By multiplying half of the time difference by the speed of ultrasound waves, we can accurately calculate the height of the empty space within the water tank.
-* Percentage Calculation: We already know the total height of the tank. With this information, we can calculate the percentage of water in the tank using the formula:
-* Percentage of water in the tank = (Height of the tank – Height of empty space in the water tank) / (Height of the water tank) × 100%
-* User Notifications: Based on the calculated percentage of water in the tank, our system will send timely notifications to the user. For instance, if the water level falls below a user-defined threshold (e.g., 15%), the user will receive an alert.
-* Overflow Prevention: If the water level is approaching full capacity (e.g., over 95%), the user will be alerted in advance. This enables the user to take action and switch off the water pump to prevent overflow, eliminating the need to strain to hear the sound of water overflowing from the tank.
-Additionally, we recommend considering the possibility of returning the overflow water to the well to reduce water wastage. However, it’s essential to note that our system primarily addresses the issues related to water level monitoring and notification. While we can’t prevent power wastage, we can help users avoid motor coil damage and ensure a more efficient water supply management.By implementing this system, users can enjoy peace of mind, knowing that they will be promptly informed about their water tank’s status and can take appropriate actions to prevent issues such as overflow or running out of water during power cuts.
 
+*For more information check out the final report*
 
 ## Technical Specifications
 Our product is designed with a focus on technical feasibility, low power consumption, and ease of use. Here are the technical specifications for our device:
