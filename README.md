@@ -37,7 +37,7 @@ Other Components: Weight: 21 g, Power Consumption: 120 mW
 * Total Power Consumption: 695 mW
   
 ### Budget:
-Total Estimated Cost: 7752 LKR
+Total Estimated Cost: 7800 LKR
 
 Note: The power consumption values are approximate and represent the maximum power usage of each component in the device. The actual power consumption may vary depending on usage and operating conditions.
 
